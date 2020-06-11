@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "154806239327",
+    "firebase_url": "https://memorizer-98d15.firebaseio.com",
+    "project_id": "memorizer-98d15",
+    "storage_bucket": "memorizer-98d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154806239327:android:1efcfc6d80808b23e29bea",
+        "android_client_info": {
+          "package_name": "julian.com.memorizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154806239327-fesocne6c1i9fttq0ad4bb4j5ioobqc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4-SdQKneYc26ov2PAH2O1mtH4VwYwlWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154806239327-fesocne6c1i9fttq0ad4bb4j5ioobqc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

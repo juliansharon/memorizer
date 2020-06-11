@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="WELCOME TO MEMEORIZER"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/heading"></TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/heading"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:id="@+id/resultimage"></ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultimage"
+        android:text="open camera"
+        android:id="@+id/analyser"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanbut"
+        android:hint="RESULT APPERS HERE"
+        android:id="@+id/resulttext"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/analyser"
+        android:text="SCAN FOR TEXTS"
+        android:id="@+id/scanbut"
+        ></Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+</RelativeLayout>
